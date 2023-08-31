@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 6 - Display Flex</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="header-first">
+            <div class="header1">
+                <img src="./src/img/logo.svg" alt="">
+            </div>
+            <div class="header2">
+                <select id="categories" name="category"
+                    style="color: #253d4e; font-family: Quicksand, sans-serif; font-size: 14px;">
+                    <option>All Categories</option>
+                    <option>Milks and Dairies</option>
+                    <option>Wines & Alcohol</option>
+                    <option>Clothing & Beauty</option>
+                    <option>Pet Foods & Toy</option>
+                    <option>Fast food</option>
+                    <option>Baking material</option>
+                    <option>Vegetables</option>
+                    <option>Fresh Seafood</option>
+                    <option>Noodles & Rice</option>
+                    <option>Ice cream</option>
+                </select>
+            </div>
+            <div class="header3">
+                <div class="search">
+                    <input type="text" placeholder="Search for items..." />
+                </div>
+            </div>
+            <div class="header4">
+                <div class="icon">
+                    <div><img src="/src/img/icon-compare.svg" alt="">
+                        <p>Compare</p>
+                    </div>
+                    <div><img src="/src/img/icon-heart.svg" alt="">
+                        <p>Wishlist</p>
+                    </div>
+                    <div><img src="/src/img/icon-cart.svg" alt="">
+                        <p>Cart</p>
+                    </div>
+                    <div><img src="/src/img/icon-user.svg" alt="">
+                        <p>Account</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div>
+        <div class="header-second">
+            <div class="first">
+                <a href="#">
+                    <div class="block">
+                        <i class="fa-solid fa-grip-vertical" style="color: #ffffff;"></i>
+                        <p>Browse All Categories</p>
+                        <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="second">
+                <div class="menu-bar">
+                    <div style="margin-left: 8px;">
+                        <img src="/src/img/svg/icon-hot.svg" alt="" style="margin-left: 30px;">
+                        <p>Deal</p>
+                    </div>
+                    <div>
+                        <p>
+                            <select id="home-menu" name="home-menu">
+                                <option>Home</option>
+                                <option>Home1</option>
+                                <option>Home2</option>
+                                <option>Home3</option>
+                                <option>Home4</option>
+                                <option>Home5</option>
+                                <option>Home6</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div>
+                        <p>About</p>
+                    </div>
+                    <div>
+                        <p>Shop</p>
+                    </div>
+                    <div>
+                        <p>Vendors</p>
+                    </div>
+                    <div>
+                        <p>Mega-menyu</p>
+                    </div>
+                    <div>
+                        <p>Blog</p>
+                    </div>
+                    <div>
+                        <p>Pages</p>
+                    </div>
+                    <div>
+                        <p>Contact</p>
+                    </div>
+                </div>
+            </div>
+            <div class="third">
+                <div class="icon-and-number">
+                    <img src="/src/img/icon-headphone.svg" alt="left icon">
+                    <div>
+                        <h1>1900-888</h1>
+                        <h3>24/7 Support Center</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-menu">
+            <div class="title">
+                <div>
+                    <h2>Featured Categories</h2>
+                </div>
+            </div>
+            <div class="card1">
+                <a href="#">
+                    <div>
+                        <p>Cake & Milk</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p>Coffes & Teas</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p>Pet Foods</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p>Mega-menyu</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div>
+                        <p>Vegetables</p>
+                    </div>
+                </a>
+            </div>
+            <div class="arrow">
+                <a href="#"><i class="fa-solid fa-arrow-left" style="color: #989aa0;"></i></a>
+                <a href="#"><i class="fa-solid fa-arrow-right" style="color: #989aa0;"></i></a>
+            </div>
+        </div>
+
+        <div class="card-menu1">
+            <div class="first-line">
+                <a href="https://wp.alithemes.com/html/nest/demo/shop-grid-right.html">
+                    <div><img src="/src/img/cat-13.png" alt="">
+                        <div class="image-text" style="border: none;">
+                            <h6>Cake & Milk</h6>
+                        </div>
+                        <span>26 items</span>
+                    </div>
+                </a>
+                <a href="https://wp.alithemes.com/html/nest/demo/shop-grid-right.html">
+                    <div><img src="/src/img/cat-12.png" alt="">
+                        <div class="image-text" style="border: none;">
+                            <h6>Organic Kiwi</h6>
+                        </div>
+                        <span>28 items</span>
+                    </div>
+                </a>
+                <a href="https://wp.alithemes.com/html/nest/demo/shop-grid-right.html">
+                    <div><img src="/src/img/cat-11.png" alt="">
+                        <div class="image-text" style="border: none;">
+                            <h6>Peach</h6>
+                        </div>
+                        <span>14 items</span>
+                    </div>
+                </a>
+                <a href="https://wp.alithemes.com/html/nest/demo/shop-grid-right.html">
+                    <div><img src="/src/img/cat-9.png" alt="">
+                        <div class="image-text" style="border: none;">
+                            <h6>Red Apple</h6>
+                        </div>
+                        <span>54 items</span>
+                    </div>
+                </a>
+                <a href="https://wp.alithemes.com/html/nest/demo/shop-grid-right.html">
+                    <div><img src="/src/img/cat-3.png" alt="">
+                        <div class="image-text" style="border: none;">
+                            <h6>Snack</h6>
+                        </div>
+                        <span>56 items</span>
+                    </div>
+                </a>
+                <a href="https://wp.alithemes.com/html/nest/demo/shop-grid-right.html">
+                    <div><img src="/src/img/cat-1.png" alt="">
+                        <div class="image-text" style="border: none;">
+                            <h6>Vegetables</h6>
+                        </div>
+                        <span>72 items</span>
+                    </div>
+                </a>
+                <a href="https://wp.alithemes.com/html/nest/demo/shop-grid-right.html">
+                    <div><img src="/src/img/cat-2.png" alt="">
+                        <div class="image-text" style="border: none;">
+                            <h6>Strawberry</h6>
+                        </div>
+                        <span>36 items</span>
+                    </div>
+                </a>
+                <a href="https://wp.alithemes.com/html/nest/demo/shop-grid-right.html">
+                    <div><img src="/src/img/cat-4.png" alt="">
+                        <div class="image-text" style="border: none;">
+                            <h6>Black Plum</h6>
+                        </div>
+                        <span>123 items</span>
+                    </div>
+                </a>
+                <a href="https://wp.alithemes.com/html/nest/demo/shop-grid-right.html">
+                    <div><img src="/src/img/cat-5.png" alt="">
+                        <div class="image-text" style="border: none;">
+                            <h6>Custard Apple</h6>
+                        </div>
+                        <span>34 items</span>
+                    </div>
+                </a>
+                <a href="https://wp.alithemes.com/html/nest/demo/shop-grid-right.html">
+                    <div><img src="/src/img/cofe and tea.png" alt="">
+                        <div class="image-text" style="border: none;">
+                            <h6>Coffe & Tea</h6>
+                        </div>
+                        <span>89 items</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="product">
+            <div class="title2">
+                <div>
+                    <h2>Popular Products</h2>
+                </div>
+            </div>
+        </div>
+        <div class="product-elements">
+            <div class="elements-line">
+                <a href="">
+                    <div><img src="/src/img/product-1-2.jpg" alt="">
+                        <span>Snack</span>
+                        <div style="border: none; justify-content: center; align-items: center;">
+                            <h6>Seeds of Change Organic Quinoa, Brown, & Red Rice</h6>
+                        </div>
+                        <div class="price">$28.85</div>
+                    </div>
+
+                    <a href="">
+                        <div><img src="/src/img/product-2-2.jpg" alt="">
+                            <span>Hoda foods</span>
+                            <div class="image-text" style="border: none; justify-content: center; align-items: center;">
+                                <h6>All Natural Italian-Style Chicken Meatballs</h6>
+                            </div>
+                            <div class="price">$52.85</div>
+                        </div>
+                        <a href="">
+                            <div><img src="/src/img/product-3-2.jpg" alt="">
+                                <span>Snack</span>
+                                <div class="image-text"
+                                    style="border: none; justify-content: center; align-items: center;">
+                                    <h6>Angie’s Boomchickapop Sweet & Salty Kettle Corn</h6>
+                                </div>
+                                <div class="price">$48.85</div>
+                            </div>
+                            <a href="">
+                                <div><img src="/src/img/product-4-2.jpg" alt="">
+                                    <span>Vegetables</span>
+                                    <div class="image-text"
+                                        style="border: none; justify-content: center; align-items: center;">
+                                        <h6>Foster Farms Takeout Crispy Classic Buffalo Wings</h6>
+                                    </div>
+                                    <div class="price">$17.85</div>
+                                </div>
+                                <a href="">
+                                    <div><img src="/src/img/product-5-2.jpg" alt="">
+                                        <span>Pet Food</span>
+                                        <div class="image-text"
+                                            style="border: none; justify-content: center; align-items: center;">
+                                            <h6>Blue Diamond Almonds Lightly Salted Vegetables</h6>
+                                        </div>
+                                        <div class="price">$23.95</div>
+                                    </div>
+
+
+
+            </div></a>
+        </div></a>
+
+
+
+
+    </div></a>
+
+
+    </div>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
